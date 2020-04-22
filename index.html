@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Sample-Site5</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="common/css/normalize.css">
+<link rel="stylesheet" href="common/css/style.css">
+
+<script src="common/js/jquery-1.10.1.min.js"></script>
+<script src="common/js/jquery.bxslider/jquery.bxslider.js"></script>
+<link rel="stylesheet" href="common/js/jquery.bxslider/jquery.bxslider.css">
+<script>
+$(document).ready(function() {
+  $('.bxslider').bxSlider({
+    auto: true,
+    speed: 1000,
+    pause: 4000
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="page">
+
+<header id="pageHead">
+	<h1 id="siteTitle">Sample-Site</h1>
+	<p id="catchcopy">Catch-Copy</p>
+	<nav class="globalNavi">
+		<ul>
+			<li class="current"><a href="index.html">Home</a></li>
+			<li><a href="about/index.html">About</a></li>
+			<li><a href="service/index.html">Service</a></li>
+			<li><a href="contact/index.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div id="pageBody">
+
+	<section class="mainVisual">
+		<ul class="bxslider">
+			<li>
+				<div class="mainVisualText">
+					<h1>Webサイト制作</h1>
+					<p>Webサイト・ホームページ制作<br>HTML・CSSコーティング<br>ECサイト作成</p>
+				</div>
+				<img src="images/slide_img1.jpg" alt="">
+			</li>
+			<li>
+				<div class="mainVisualText">
+					<h1>SEO対策</h1>
+					<p>SEO内部対策<br>外部SEO被リンク対策<br>SEOコンサルティング</p>
+				</div>
+				<img src="images/slide_img2.jpg" alt="">
+			</li>
+			<li>
+				<div class="mainVisualText">
+					<h1>アプリケーション開発</h1>
+					<p>スマートフォンアプリ開発<br>デスクトップアプリ開発<br>ゲーム開発</p>
+				</div>
+				<img src="images/slide_img3.jpg" alt="">
+			</li>
+		</ul>
+	</section>
+
+	<section class="portfolioIndex">
+		<article>
+			<a href="service/service1.html"><img src="service/images/site-img.jpg" alt=""></a>
+			<h2><a href="service/service1.html">Webサイト制作</a></h2>
+			<p>Webサイト・ホームページ制作<br>HTML・CSSコーティング<br>ECサイト作成</p>
+		</article>
+		<article>
+			<a href="service/service2.html"><img src="service/images/seo-img.jpg" alt=""></a>
+			<h2><a href="service/service2.html">SEO対策</a></h2>
+			<p>SEO内部対策<br>外部SEO被リンク対策<br>SEOコンサルティング</p>
+		</article>
+		<article>
+			<a href="service/service3.html"><img src="service/images/app-img.jpg" alt=""></a>
+			<h2><a href="service/service3.html">アプリケーション開発</a></h2>
+			<p>スマートフォンアプリ開発<br>デスクトップアプリ開発<br>ゲーム開発</p>
+		</article>
+	</section>
+
+	<section class="news">
+		<h1>News</h1>
+		<table>
+			<tr>
+				<th><time datetime="2020-04-22">2020年04月22日</time></th>
+				<td>HTMLテンプレート（当サイト）完成。</td>
+			</tr>
+			<tr>
+				<th><time datetime="2020-04-17">2020年04月17日</time></th>
+				<td>HTMLテンプレート（当サイト）作成開始。</td>
+			</tr>
+		</table>
+	</section>
+
+</div>
+
+<p class="pagetop"><a href="#page">ページの先頭へ戻る</a></p>
+
+<footer id="pageFoot">
+	<p id="copyright"><small>Copyright&copy; 2020 ai All Rights Reserved.</small></p>
+</footer>
+
+</div>
+
+</body>
+</html>
